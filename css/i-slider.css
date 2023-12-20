@@ -1,0 +1,15 @@
+.i-slides {
+    display: flex;
+    position: relative;
+}
+
+img {
+    width: 100%;
+}
+
+.i-content {
+    display: block;
+    width: 1000px;
+    margin: auto;
+    max-width: 90vw;
+}

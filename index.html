@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/i-slider.css">
+    <title>Document</title>
+    <style>
+        .step-button-bar {
+            display: inline-block;
+            background-color: purple;
+            color: white;
+            width: 30px;
+            margin: 3px;
+        }
+        .js-active {
+            font-weight: bolder;
+            color: purple; 
+            background-color: white;  
+            border: 1px purple solid;         
+        }
+    </style>
+</head>
+
+<body>
+
+    
+    <div class="js-steps-2"></div>    
+    
+    <ul>
+        <li><span class="js-prev">Voltar</span></li>
+        <li><span class="js-next">Próximo</span></li>        
+    </ul>
+
+
+
+    <div class="i-content">
+        <div class="js-slides"></div>
+    </div>
+
+    <hr />
+
+    <div class="js-steps">
+    </div>
+
+    <hr />
+    
+    <h2 class="js-next-2">Seguinte...</h2>
+
+    <script src="./main.js" type="module"></script>
+</body>
+
+</html>
